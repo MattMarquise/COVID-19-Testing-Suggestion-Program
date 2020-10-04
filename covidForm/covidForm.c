@@ -1,5 +1,8 @@
+// PURPOSE:
 // Helps individuals determine wether they should be tested for COVID-19.
+
 // Built by: (Github) @MattMarquise
+
 
 #include <stdio.h>
 #include <stdlib.h>
