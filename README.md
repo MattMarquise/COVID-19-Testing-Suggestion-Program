@@ -1,6 +1,6 @@
 # COVID-19 Testing Suggestion Form
 ### Description:
-This is a simple command-line program written in C that will suggest wether or not you should be tested for COVID-19 based on the responses you give to the various questions. Hope you enjoy this fun little program!
+This is a simple command-line program written in C that will suggest wether or not you should be tested for COVID-19 based on the responses you give to the various questions. Hope you enjoy playing around with this fun little program!
 
 ### Usage:
 * Start by downloading the folder titled `covidForm` and open a terminal window. 
