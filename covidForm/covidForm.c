@@ -1,8 +1,7 @@
 // PURPOSE:
-// Helps individuals determine wether they should be tested for COVID-19.
+// Suggests to individuals wether it's necessary for them to be tested for COVID-19 based on the data collected from their response.
 
 // Built by: (Github) @MattMarquise
-
 
 #include <stdio.h>
 #include <stdlib.h>
