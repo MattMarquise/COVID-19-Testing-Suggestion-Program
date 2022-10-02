@@ -12,15 +12,15 @@ int main(void)
 {
     // AGREE
     char* agree = malloc(sizeof(char) * 5);
-    printf("\nWould you mind answering some questions to determine if you should be tested for COVID-19?\nType yes or no: ");
+    printf("\nWould you mind answering some questions to help suggest if you should be tested for COVID-19?\nType yes or no: ");
     scanf("%s", agree);
 
-    // If yes
+    // IF YES
     if (strcmp(agree, "yes") == 0) {
         printf("\nOkay, let's begin!\nIt won't take long\n\n");
     }
 
-    // If no
+    // IF NO
     else {
         exit(0);
     }
@@ -34,10 +34,10 @@ int main(void)
     printf("\n\n\nQ1: Have you ever been tested for COVID-19? ");
     scanf("%s", q1);
 
-    // If yes
+    // IF YES
     if (strcmp(q1, "yes") == 0) {
 
-        // Q1 Part 2
+        // Q1 PART 2
         char* q1part2 = malloc(sizeof(char) * 5);
         printf("\n\nQ1 PART 2: Have you tested positive for COVID-19 within the past two weeks? ");
         scanf("%s", q1part2);
@@ -49,7 +49,7 @@ int main(void)
             printf("\nOkay, then let's continue...\n\n");
         }
 
-        // Q1 Part 3
+        // Q1 PART 3
         char* q1part3 = malloc(sizeof(char) * 5);
         printf("\n\nQ1 PART 3: Did you test positive for COVID-19 more than two weeks ago? ");
         scanf("%s", q1part3);
@@ -62,7 +62,7 @@ int main(void)
         }
     }
 
-    // If no
+    // IF NO
     else {
         printf("\nOkay, then let's continue...\n\n");
     }
@@ -72,13 +72,13 @@ int main(void)
     printf("\nQ2: Have you been around anyone who has tested positive for COVID-19 within the past two weeks? ");
     scanf("%s", q2);
 
-    // If yes
+    // IF YES
     if (strcmp(q2, "yes") == 0) {
         printf("\nYou need to be tested.\n\n");
         return 0;
     }
 
-    // If no
+    // IF NO
     else {
         printf("\nOkay, then let's continue...\n\n");
     }
@@ -88,13 +88,13 @@ int main(void)
     printf("\nQ3: Are you currently experiencing any of the symptoms commonly related to COVID-19? If you're not sure if you have symptoms of COVID-19 search COVID-19 symptoms to find out. ");
     scanf("%s", q3);
 
-    // If yes
+    // IF YES
     if (strcmp(q3, "yes") == 0) {
         printf("\nYou might want to get tested to see if the symptoms are from the Coronavirus\n");
         return 0;
     }
 
-    // If no
+    // IF NO
     else {
         printf("\nOkay, then let's continue...\n\n");
     }
@@ -102,3 +102,5 @@ int main(void)
     // END
     printf("\nIt seems that it isn't entirely neccesary for you to get tested for COVID-19 right now. However, if at any point you believe you'd answer yes to any of the questions we asked, please retake this quick questionnaire.\nStay safe and healthy!\n\n");
 }
+
+// 
