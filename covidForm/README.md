@@ -10,3 +10,7 @@ This is a simple command-line program written in C that will suggest wether or n
 That's it. Hopefully some of you will find this interesting! This is a program, that if built in python and made more user friendly, could be used to help people all over the world come to at least a slightly better conclusion as to being tested for COVID-19 or not.
 
 Thanks!
+
+> ***This program is NOT an official COVID 19 testing form and is NOT affiliated with the CDC or any other health organization in any way.***
+
+```Last Updated: Oct. 1, 2022```
